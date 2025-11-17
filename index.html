@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -29,6 +29,82 @@
             </div>
         </div>
     </nav>
+
+    <section id="top" class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4">Bienvenue sur mon Portfolio</h1>
+            <p class="lead">Découvrez mes projets et compétences.</p>
+        </div>
+    </section>
+
+    <section id="a-propos" class="container my-5">
+        <h2 class="text-center mb-4">À Propos de Moi</h2>
+        <p>Je m'appelle Henry Nadler, développeur web passionné avec une expertise en création de sites web modernes et réactifs. J'aime transformer des idées en réalité numérique.</p>
+    </section>
+
+    <section id="mes-realisations" class="container my-5">
+        <h2 class="text-center mb-4">Mes Réalisations</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="assets/gettyimages-585032235-612x612.jpg" class="card-img-top" alt="course" width="612px" height="152px">
+                    <div class="card-body">
+                        <h5 class="card-title">Club de course</h5>
+                        <p class="card-text">Plateform sportives avec des cours collectifs et une FAQ</p>   
+                    </div>
+                </div>  
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="assets/pasta-3559956_640.jpg" class="card-img-top" alt="pates" width="612px" height="152px">
+                    <div class="card-body">
+                        <h5 class="card-title"> Recettes de pates</h5>
+                        <p class="card-text"> Site vitrine avec differentes recettes de pates</p>   
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="assets/istockphoto-944812540-612x612.jpg" class="card-img-top" alt="paysage" width="612px" height="152px">
+                    <div class="card-body">
+                        <h5 class="card-title"> Blog sur pays</h5>
+                        <p class="card-text"></p>   
+                    </div>
+                </div>  
+
+            </div>
+        </div>              
+    </section>
+    <section id="competences" class="container my-5">
+        <h2 class="text-center mb-4">Compétences</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Front-end: Javascript, Html, CSS </li>
+            <li class="list-group-item"> Languages: Pyton, PHP</li>   
+            <li class="list-group-item"> DB: MySQL</li>
+        </ul>
+    </section>
+
+    <section id="devis" class="container my-5">
+        <h2 class="text-center mb-4">Demandez un Devis</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Entrez votre nom">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Entrez votre email">
+            </div>
+            <div class="form-group">
+                <label for="details">Détails du projet</label>
+                <textarea class="form-control" id="details" rows="4" placeholder="Décrivez votre projet"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+    <footer class="text-center py-4">
+        <p>&copy; 2025 Henry Nadler. Tous droits réservés.</p>
+    </footer>
 
 
 </body>
